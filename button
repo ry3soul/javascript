@@ -1,0 +1,18 @@
+<style>
+	.button1{
+		color: red;
+	}
+	.button2{
+		color:blue;
+	}
+</style
+
+<html>
+<button type="button" id="button” class="button2" onclick="ChangeColour()">Click Me!</button>
+
+<script>
+function ChangeColour() {
+	document.getElementById("button").className = "Button1";
+}
+</script>
+
